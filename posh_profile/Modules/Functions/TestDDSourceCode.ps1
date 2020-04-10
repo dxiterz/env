@@ -1,12 +1,11 @@
 function TestDDSourceCode() {
     Param(
-    [parameter(Mandatory=$false)]
-    [String]
-    $Build = "Build"
+        [switch]$Build = $false
     )
+
     $testPath = "C:\Projects\ECAD\Main\Tests\DeltaDesign.Tests\"
     
-    if ($Build -ne  "NoBuild"){
+    if ($Build){
         MSBuild.exe $testPath
     }
 
