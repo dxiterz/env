@@ -9,4 +9,5 @@ Set-Theme Agnoster
 
 Set-Alias pbcopy Set-Clipboard
 Set-Alias pbpaste Get-Clipboard
+Set-Alias lsw Get-ChildItemWithName
 Set-Variable ddSource C:\Projects\ECAD\Main\Source\
