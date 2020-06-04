@@ -7,5 +7,5 @@ function Get-ChildItemWithName()
 			[string]$Path="./"
 		) 
 		
-		Get-ChildItem -Recurse:$Recurse -Path $Path | Where-Object -Property "Name" -Like $Where 
+		Get-ChildItem -Recurse:$Recurse -Path $Path | Where-Object -Property "Name" -Match $Where 
 	}
