@@ -5,7 +5,7 @@
 
 [Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh) A prompt theming engine for Powershell
 
-[Nerd Fonts](https://www.nerdfonts.com) for prompt glyphs
+[Nerd Fonts](https://www.nerdfonts.com) for prompt glyphs. (MesloLGM Nerd Font)
 
 ## OS X
 
