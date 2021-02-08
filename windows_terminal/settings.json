@@ -22,7 +22,11 @@
                 "fontFace" : "MesloLGM Nerd Font",
                 "fontSize" : 10,
                 "colorScheme": "One Half Dark",
-                "source": "Windows.Terminal.PowershellCore"
+                "source": "Windows.Terminal.PowershellCore",
+                "backgroundImage": "C:/Users/dx/pictures/dotnet.png",
+                "backgroundImageOpacity": 0.05,
+                "useAcrylic": true,
+                "acrylicOpacity": 0.8
             },
             {
                 // Make changes here to the cmd.exe profile
