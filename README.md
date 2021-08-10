@@ -3,7 +3,8 @@
 ## Windows
 [Windows terminal](https://github.com/Microsoft/Terminal)
 
-[Oh-My-Posh](https://github.com/JanDeDobbeleer/oh-my-posh) A prompt theming engine for Powershell
+
+[Powerline](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup) A prompt theming engine for Powershell
 
 [Nerd Fonts](https://www.nerdfonts.com) for prompt glyphs. (MesloLGM Nerd Font)
 
