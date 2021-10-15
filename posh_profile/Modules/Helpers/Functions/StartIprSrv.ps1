@@ -1,4 +1,6 @@
 function StartIprSrv {
+    $prevLocation = $PWD
     Set-Location $HOME\IprServer
-    ./IprServer.exe /sc
+    sudo ./IprServer.exe /sc
+    Set-Location $prevLocation
 }
