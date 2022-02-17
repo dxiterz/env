@@ -4,7 +4,7 @@
 [Windows terminal](https://github.com/Microsoft/Terminal)
 
 
-[Powerline](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup) A prompt theming engine for Powershell
+[Oh-my-posh](https://ohmyposh.dev) A prompt theming engine for Powershell
 
 [Nerd Fonts](https://www.nerdfonts.com) for prompt glyphs. (MesloLGM Nerd Font)
 
