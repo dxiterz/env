@@ -1,13 +1,15 @@
-$env:Path = $env:Path + ";C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\" `
-    + ";C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow\" `
-    + ";C:\Program Files\JetBrains\JetBrains Rider 2020.1.4\jbr\bin\" `
+$env:Path = $env:Path + ";C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin" `
+    + ";C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\" `
     + ";C:\Program Files\OpenSSL\bin\" `
-    + ";C:\Users\dx\bin\"
+    + ";C:\Users\itjus\bin\" `
+    + ";C:\Program Files\JetBrains\JetBrains Rider 2021\jbr\bin" `
+    + ";C:\Program Files\TF" `
+    + ";C:\Program Files\JetBrains\JetBrains Rider 2021\bin"
 
 Import-Module posh-git
 Import-Module oh-my-posh
 Import-Module Helpers
-Set-Theme Agnoster
+Set-PoshPrompt -Theme jandedobbeleer
 
 Set-Alias pbcopy Set-Clipboard
 Set-Alias pbpaste Get-Clipboard
