@@ -1,6 +1,6 @@
 function Get-Foldersize(){
     Param(
-        [string]$Path="./"
+        [Parameter(ValueFromPipeline=$true)]$Path="./"
     )
     $size = (Get-ChildItem -Recurse $Path | Measure-Object -Property Length -Sum).Sum
     $units = "bytes"
@@ -13,5 +13,5 @@ function Get-Foldersize(){
         $size = $size / 1Mb
         $units = "Mb"
     }
-    echo "$($size) $($units)"
+    New-Object PSObject -Property @{Path=(Convert-Path $Path); Size=$size; Units=$units} | Format-Table Path, Size, Units
 }

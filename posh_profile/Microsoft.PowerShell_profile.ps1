@@ -1,10 +1,10 @@
 $env:Path = $env:Path + ";C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin" `
     + ";C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\" `
     + ";C:\Program Files\OpenSSL\bin\" `
-    + ";C:\Users\itjus\bin\" `
-    + ";C:\Program Files\JetBrains\JetBrains Rider 2021\jbr\bin" `
+    + ";~\bin\" `
+    + ";C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\jbr\bin" `
     + ";C:\Program Files\TF" `
-    + ";C:\Program Files\JetBrains\JetBrains Rider 2021\bin"
+    + ";C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\bin"
 
 Import-Module posh-git
 Import-Module oh-my-posh
