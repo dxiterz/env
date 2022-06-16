@@ -16,4 +16,6 @@ Set-Alias pbpaste Get-Clipboard
 Set-Alias lsw Get-ChildItemWithName
 Set-Variable ddSource C:\Projects\ECAD\Main\Source\
 Set-Variable topor C:\Projects\Topor\Main\Source\_BinD\x86\
+Set-Variable share \\ipr-tfs\ecad\zubik\
+Set-Variable TF_AUTO_SAVE_CREDENTIALS 1
 Set-Alias dotnet5 'C:\Program Files\dotnet5-preview\dotnet.exe'
