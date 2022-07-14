@@ -7,9 +7,9 @@ $env:Path = $env:Path + ";C:\Program Files\Microsoft Visual Studio\2022\Communit
     + ";C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\bin"
 
 Import-Module posh-git
-Import-Module oh-my-posh
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jandedobbeleer.omp.json" | Invoke-Expression
 Import-Module Helpers
-Set-PoshPrompt -Theme jandedobbeleer
+#Set-PoshPrompt -Theme jandedobbeleer
 
 Set-Alias pbcopy Set-Clipboard
 Set-Alias pbpaste Get-Clipboard
