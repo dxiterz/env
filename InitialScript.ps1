@@ -7,3 +7,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 #Set TF diff
 #$TF_DIFF_COMMAND = "$((Get-Command code).Source) --diff %1 %2"
 [System.Environment]::SetEnvironmentVariable("TF_DIFF_COMMAND", "$((Get-Command code).Source) --diff %1 %2")
+
+git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
