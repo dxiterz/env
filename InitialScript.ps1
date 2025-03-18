@@ -11,3 +11,5 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object
 
 git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 git config --global alias.prunelocal "branch -D $(git branch -v | ? {$_.Contains("[gone]")} | % {$_.Trim().Split(' ')[0]})"
+
+Install-Module -Name Terminal-Icons -Repository PSGaller
