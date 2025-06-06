@@ -17,3 +17,8 @@
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme for zsh
 
 [Homebrew](https://brew.sh) OS X package manager
+
+## Routes
+
+### Cписок адресов из интернета
+https://gist.github.com/iamwildtuna/7772b7c84a11bf6e1385f23096a73a15
